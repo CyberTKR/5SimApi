@@ -18,7 +18,7 @@ class TKR5SimRequestAPI():
         self.session = requests.Session()
 
     def GoodPrint(self, djson):
-        print(json.dumps(djson, indent=4, sort_keys=True), 118)
+        print(json.dumps(djson, indent=4, sort_keys=True))
         
   
     def B(self):
